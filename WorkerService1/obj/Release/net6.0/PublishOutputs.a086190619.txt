@@ -20,6 +20,7 @@ C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publis
 C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publish\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publish\Microsoft.Extensions.Hosting.dll
 C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publish\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publish\Microsoft.Extensions.Hosting.WindowsServices.dll
 C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publish\Microsoft.Extensions.Logging.dll
 C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publish\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publish\Microsoft.Extensions.Logging.Configuration.dll
@@ -31,5 +32,7 @@ C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publis
 C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publish\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publish\Microsoft.Extensions.Primitives.dll
 C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publish\System.Diagnostics.EventLog.dll
+C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publish\System.ServiceProcess.ServiceController.dll
 C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publish\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
 C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publish\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+C:\Users\berat\source\repos\serviceTest\WorkerService1\bin\Release\net6.0\publish\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll

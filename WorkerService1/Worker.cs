@@ -6,7 +6,7 @@ namespace WorkerService1
     public class Worker : BackgroundService
     {
         private readonly ILogger<Worker> _logger;
-
+        
         public Worker(ILogger<Worker> logger)
         {
             _logger = logger;
@@ -14,6 +14,7 @@ namespace WorkerService1
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
+         
             var testServ = new TestServ(stoppingToken);
             await testServ.writeAsync();
             var tcs = new TaskCompletionSource<bool>();
@@ -21,7 +22,7 @@ namespace WorkerService1
             await tcs.Task;
             await testServ.StopAsync(stoppingToken);
             //await task;
-
+           
         }
     }
 }

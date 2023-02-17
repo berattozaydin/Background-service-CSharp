@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BXQM80Mzd6PRRPMrGYFjzESff5CCZZnLSF8+J2ZiWO2yEk3ghbfRr+41U7m1dIN8hulYoeEHM79jhUgcNxkx/g==",
+  "dgSpecHash": "wdmI90b6cVfGxmdcRh1cKs66vYGlpwUxw5OLr0eg48Z7ir5MKqRsEFBKgCcenLThCsigt3fL2fXpYy1D2j/+lg==",
   "success": true,
   "projectFilePath": "C:\\Users\\berat\\source\\repos\\serviceTest\\WorkerService1\\WorkerService1.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\berat\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
     "C:\\Users\\berat\\.nuget\\packages\\microsoft.extensions.hosting\\6.0.1\\microsoft.extensions.hosting.6.0.1.nupkg.sha512",
     "C:\\Users\\berat\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\6.0.0\\microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\berat\\.nuget\\packages\\microsoft.extensions.hosting.windowsservices\\3.0.0\\microsoft.extensions.hosting.windowsservices.3.0.0.nupkg.sha512",
     "C:\\Users\\berat\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\berat\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\berat\\.nuget\\packages\\microsoft.extensions.logging.configuration\\6.0.0\\microsoft.extensions.logging.configuration.6.0.0.nupkg.sha512",
@@ -32,6 +33,7 @@
     "C:\\Users\\berat\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\berat\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\berat\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\berat\\.nuget\\packages\\system.serviceprocess.servicecontroller\\4.6.0\\system.serviceprocess.servicecontroller.4.6.0.nupkg.sha512",
     "C:\\Users\\berat\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\berat\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
