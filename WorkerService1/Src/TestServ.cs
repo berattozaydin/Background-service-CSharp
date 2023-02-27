@@ -1,10 +1,13 @@
-﻿using System;
+﻿using FileService;
+using Microsoft.Toolkit.Uwp.Notifications;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace WorkerService1.Src
 {
@@ -26,7 +29,7 @@ namespace WorkerService1.Src
             {
                 while (!stoppingToken.IsCancellationRequested)
                 {
-                    writeFile();
+                    ReadFile();
                     await Task.Delay(5000, stoppingToken);
 
                 }
@@ -56,15 +59,51 @@ namespace WorkerService1.Src
             }
             
         } 
-        private void writeFile()
+        private void ReadFile()
+        {
+            /*string folder = @"C:\Temp\";
+
+            string fileName = "CSharpCornerAuthors.txt";
+
+            string fullPath = folder + fileName;
+            FileStream fileStream = new FileStream(fullPath,FileMode.Open,FileAccess.Read);
+            StreamReader streamReader = new StreamReader(fileStream);
+            string fileRead = streamReader.ReadLine();
+            while(fileRead!= null)
+            {
+                if (fileRead !=null)
+                {
+                    new ToastContentBuilder()
+                         .AddArgument("action", "viewConversation")
+                         .AddArgument("conversationId", 9813)
+                         .AddText(fileRead).Show();
+                    Console.WriteLine(fileRead);
+    
+                }
+                fileRead = streamReader.ReadLine();
+            }*/
+            var connectionString = "Server=172.16.10.15;Database=TestDatabase;User Id=sa;Password=Teknoplan123.;Pooling=true";
+            var db = new PetaPoco.Database(connectionString, "System.Data.SqlClient");
+            var count = db.FirstOrDefault<PERSON_DETECTED>("WHERE ID=@0",1);
+            if (count.PERSON_COUNT >= 1)
+            {
+                new ToastContentBuilder()
+                        .AddArgument("action", "viewConversation")
+                        .AddArgument("conversationId", 9813)
+                        .AddText(count.PERSON_COUNT.ToString()).Show();
+            }
+            
+            
+            
+            Console.WriteLine(count.PERSON_COUNT.ToString());
+        }
+        /*private void writeFile()
         {
             string folder = @"C:\Temp\";
 
             string fileName = "CSharpCornerAuthors.txt";
 
             string fullPath = folder + fileName;
-
-            string[] authors = { "Mahesh Chand", "Allen O'Neill", "David McCarter", "Raj Kumar", "Dhananjay Kumar" };
             if (File.Exists(fullPath))
             {
                 File.AppendAllText(fullPath, "berat");
@@ -78,7 +117,7 @@ namespace WorkerService1.Src
                 using (File.Create(fullPath)) ;
 
             }
-        }
+        }*/
         public Task StopAsync(CancellationToken cancellationToken)
         {
             

@@ -1,0 +1,12 @@
+C:\Users\berat\source\repos\serviceTest\FileService\bin\Debug\net6.0\FileService.deps.json
+C:\Users\berat\source\repos\serviceTest\FileService\bin\Debug\net6.0\FileService.dll
+C:\Users\berat\source\repos\serviceTest\FileService\bin\Debug\net6.0\FileService.pdb
+C:\Users\berat\source\repos\serviceTest\FileService\obj\Debug\net6.0\FileService.csproj.AssemblyReference.cache
+C:\Users\berat\source\repos\serviceTest\FileService\obj\Debug\net6.0\FileService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berat\source\repos\serviceTest\FileService\obj\Debug\net6.0\FileService.AssemblyInfoInputs.cache
+C:\Users\berat\source\repos\serviceTest\FileService\obj\Debug\net6.0\FileService.AssemblyInfo.cs
+C:\Users\berat\source\repos\serviceTest\FileService\obj\Debug\net6.0\FileService.csproj.CoreCompileInputs.cache
+C:\Users\berat\source\repos\serviceTest\FileService\obj\Debug\net6.0\FileService.dll
+C:\Users\berat\source\repos\serviceTest\FileService\obj\Debug\net6.0\refint\FileService.dll
+C:\Users\berat\source\repos\serviceTest\FileService\obj\Debug\net6.0\FileService.pdb
+C:\Users\berat\source\repos\serviceTest\FileService\obj\Debug\net6.0\ref\FileService.dll
