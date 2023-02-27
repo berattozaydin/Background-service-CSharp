@@ -16,7 +16,7 @@ namespace WorkerService1
         {
          
             var testServ = new TestServ(stoppingToken);
-            await testServ.writeAsync();
+            await testServ.WriteAsync();
             var tcs = new TaskCompletionSource<bool>();
             stoppingToken.Register(s=>((TaskCompletionSource<bool>)s).SetResult(true),tcs);
             await tcs.Task;
